@@ -1,0 +1,79 @@
+/* Write your CSS code here */
+.sub-crypto-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.crypto-title {
+  color: #00e7ff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.crypto-currency-img {
+  width: 90%;
+}
+
+.crypto-list {
+  list-style-type: none;
+  padding: 0;
+  width: 80%;
+  border: 3px solid #00e7ff;
+  border-radius: 8px;
+}
+
+.crypto-currency-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #092e33;
+  padding: 0px 30px;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.usd-euro-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-type {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  text-align: end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 575px) {
+  .crypto-currency-heading {
+    padding: 0px 20px;
+  }
+
+  .currency-type {
+    width: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .crypto-currency-heading {
+    padding: 0px 50px;
+  }
+
+  .currency-type {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .crypto-currency-heading {
+    padding: 0px 70px;
+  }
+}

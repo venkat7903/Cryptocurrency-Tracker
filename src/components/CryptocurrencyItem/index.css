@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.crypto-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.usd-euro {
+  color: #fff;
+  font-size: 15px;
+}
+
+.usd-euro-value-container {
+  display: flex;
+  align-items: center;
+}
+
+.usd-euro-value {
+  color: #fff;
+  font-size: 15px;
+  width: 100px;
+  text-align: end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 575px) {
+  .crypto-item {
+    padding: 0px 20px;
+  }
+
+  .usd-euro-value {
+    width: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .crypto-item {
+    padding: 0px 50px;
+  }
+
+  .usd-euro-value {
+    width: 120px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .crypto-item {
+    padding: 0px 70px;
+  }
+}
